@@ -17,6 +17,7 @@ public class TC_DWS_001_Test extends BaseClass {
 		HomePage hp=new HomePage(driver);
 		hp.getBooksLink().click();
 		test.log(Status.PASS, "Books page is displayed");
+		test.log(Status.PASS, "Books page is displayed");
 	}
 
 }
